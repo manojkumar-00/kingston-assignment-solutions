@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Sayan Das">
+    <title>Stock Video Footage</title>
+
+    <!-- Icon Link  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- CSS Link  -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font Link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- ========================== HEADER SECTION ========================== -->
+    <header>
+        <!-- ============== NAVBAR SECTION ============== -->
+        <nav>
+            <div class="nav-section-1">
+                <img src="./Resources/nav-logo.svg" alt="" class="nav-logo">
+                <ul class="nav-links">
+                    <li class="nav-link">
+                        <a href="#">Video</a>
+                        <i class="ri-arrow-down-s-line"></i>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Photos</a>
+                        <i class="ri-arrow-down-s-line"></i>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Illustrations</a>
+                        <i class="ri-arrow-down-s-line"></i>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Vectors</a>
+                        <i class="ri-arrow-down-s-line"></i>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Music</a>
+                    </li>
+                    <li class="nav-link">
+                        <i class="ri-sparkling-2-fill" id="ai-icon"></i>
+                        <a href="#">Ai Generator</a>
+                        <i class="ri-arrow-down-s-line"></i>
+                    </li>
+                    <li class="nav-link" id="resource">
+                        <a href="#">Resources</a>
+                        <i class="ri-arrow-down-s-line"></i>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav-section-2">
+                <ul class="nav-links">
+                    <li class="nav-link">
+                        <a href="#">Pricing</a>
+                    </li>
+                    <li class="nav-link" id="boards">
+                        <i class="ri-file-copy-fill" id="boards-icon"></i>
+                        <a href="#">Boards</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Sign In</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">Join</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- ============== HERO SECTION =============== -->
+        <section class="video-background">
+            <!-- Video Background -->
+            <video autoplay muted loop class="background-video">
+                <source src="./Resources/hero-vid.mp4" type="video/mp4">
+            </video>
+
+            <!-- Overlay Content -->
+            <div class="content-overlay">
+                <!-- Search Bar -->
+                <div class="search-bar">
+                    <div class="search-options">
+                        <button class="dropdown-button">
+                            <i class="ri-movie-line" id="video-icon"></i>
+                            Video
+                            <i class="ri-arrow-down-s-line"></i>
+                        </button>
+                        <input type="text" placeholder="Search millions of premium-quality stock images and videos">
+                    </div>
+                    <button class="search-by-image">
+                        <img src="./Resources/search-by-img.svg" alt="Search by image or video">
+                        Search by image or Video
+                    </button>
+                </div>
+
+                <!-- Heading and Buttons -->
+                <div class="main-content">
+                    <h1>Discover studio-quality stock video footage</h1>
+                    <p id="tagline">Tell stories your audience won’t soon forget with royalty-free video clips in 4K
+                        <br> and HD.</p>
+                    <div class="buttons">
+                        <button class="main-button">View plans and pricing</button>
+                    </div>
+                </div>
+
+                <button class="secondary-button">View Board</button>
+            </div>
+        </section>
+
+
+        <!-- ============= Trending Search ============ -->
+        <section class="trending-searches">
+            <span class="trending-title">Trending searches</span>
+            <div class="search-tags">
+                <button class="search-tag"><i class="ri-search-line"></i> chennai</button>
+                <button class="search-tag"><i class="ri-search-line"></i> kerala</button>
+                <button class="search-tag"><i class="ri-search-line"></i> fever</button>
+                <button class="search-tag"><i class="ri-search-line"></i> home interior</button>
+                <button class="search-tag"><i class="ri-search-line"></i> no</button>
+                <button class="search-tag"><i class="ri-search-line"></i> rajasthan</button>
+                <button class="search-tag"><i class="ri-search-line"></i> ai</button>
+            </div>
+        </section>
+    </header>
+
+    <!-- ========================== FOOTER SECTION ========================== -->
+    <!-- <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <p>Save on the high-quality images you love. <a href="#">Subscribe today.</a></p>
+            </div>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="./Resources/nav-logo.svg" alt="iStock" id="footer-logo">
+                    <div class="country-selector">
+                        <img src="https://flagcdn.com/w320/in.png" alt="India Flag" class="country-flag">
+                        <span>India</span>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h3>LEARN MORE</h3>
+                        <ul>
+                            <li><a href="#">Plans and pricing</a></li>
+                            <li><a href="#">iStock promo codes</a></li>
+                            <li><a href="#">Tips and tricks</a></li>
+                            <li><a href="#">Search Guide</a></li>
+                            <li><a href="#">Stock photos</a></li>
+                            <li><a href="#">Stock videos</a></li>
+                            <li><a href="#">Stock illustrations</a></li>
+                            <li><a href="#">Plugins and apps</a></li>
+                            <li><a href="#">License information</a></li>
+                            <li><a href="#">Legal / Privacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>COMPANY</h3>
+                        <ul>
+                            <li><a href="#">About us</a></li>
+                            <li><a href="#">Newsroom</a></li>
+                            <li><a href="#">Investor</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Affiliates</a></li>
+                            <li><a href="#">Sell stock</a></li>
+                            <li><a href="#">Contributor support</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>SUPPORT</h3>
+                        <ul>
+                            <li><a href="#">Contact us</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Site map</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="ri-facebook-fill"></i></a>
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-line"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 iStockphoto LP. The iStock design is a trademark of iStockphoto LP. Browse millions of high-quality stock photos, illustrations, and videos.</p>
+        </div>
+    </footer> -->
+</body>
+
+</html>
